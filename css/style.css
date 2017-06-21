@@ -24,7 +24,7 @@ h1 strong{
 
 
 .home{
-  background-image: url("../img/bg.png");
+  background-image: url("../img/bg.jpg");
   height: 800px;
   background-size: 100% 100%;
   font-family: 'Open Sans', sans-serif;
@@ -169,6 +169,22 @@ nav a{
   .jumbotron {
     border-bottom: 0;
   }
+
+}
+
+
+@media screen and (max-width: 766px) {
+
+  .home{
+  background-image: url("../img/bg2.jpg");
+ }
+
+ .video {
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+ }
+
 
 }
 
